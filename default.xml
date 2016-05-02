@@ -361,15 +361,15 @@
 
   <!-- Github branch should stay marshmallow-release regardless of aosp branch for these projects -->
   <project path="hardware/samsung" name="Schischu/android_hardware_samsung" remote="github" revision="marshmallow-release" groups="pdk" />
-  <!-- project path="hardware/samsung_slsi/exynos" name="Schischu/android_hardware_samsung_slsi_exynos" remote="github" revision="marshmallow-release" groups="pdk" / -->
-  <!-- project path="hardware/samsung_slsi/exynos5-insignal" name="Schischu/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="marshmallow-release" groups="pdk" / -->
-  <!-- project path="hardware/samsung_slsi/exynos5420" name="Schischu/android_hardware_samsung_slsi_exynos5420" remote="github" revision="marshmallow-release" groups="pdk" / -->
-  <!-- project path="hardware/samsung_slsi/openmax" name="Schischu/android_hardware_samsung_slsi_openmax" remote="github" revision="marshmallow-release" groups="pdk" / -->
+  <project path="hardware/samsung_slsi/exynos" name="Schischu/android_hardware_samsung_slsi_exynos" remote="github" revision="marshmallow-release" groups="pdk"/>
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="Schischu/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="marshmallow-release" groups="pdk"/>
+  <project path="hardware/samsung_slsi/exynos5420" name="Schischu/android_hardware_samsung_slsi_exynos5420" remote="github" revision="marshmallow-release" groups="pdk"/>
+  <project path="hardware/samsung_slsi/openmax" name="Schischu/android_hardware_samsung_slsi_openmax" remote="github" revision="marshmallow-release" groups="pdk"/>
   
-  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" groups="pdk" />
+  <!--<project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="hardware/samsung_slsi-cm/exynos5420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5420" remote="github" revision="cm-13.0" groups="pdk" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" groups="pdk" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" groups="pdk" /> -->
 
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
